@@ -2,7 +2,7 @@ import React from "react";
 import ReplayIcon from "@material-ui/icons/Replay";
 import CloseIcon from "@material-ui/icons/Close";
 import StarRateIcon from "@material-ui/icons/StarRate";
-import FavouriteIcon from "@material-ui/icons/Favourite";
+import FavoriteIcon from '@material-ui/icons/Favorite';
 import FlashOnIcon from "@material-ui/icons/FlashOn";
 import IconButton from "@material-ui/core/IconButton";
 
@@ -21,7 +21,7 @@ function SwipeButtons() {
         <StarRateIcon fontSize="large" />
       </IconButton>
       <IconButton className="swipeButtons__right">
-        <FavouriteIcon fontSize="large" />
+        <FavoriteIcon fontSize="large" />
       </IconButton>
       <IconButton className="swipeButtons__lightning">
         <FlashOnIcon fontSize="large" />
